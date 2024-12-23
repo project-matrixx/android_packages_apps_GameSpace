@@ -37,7 +37,6 @@
     <string name="notification_mode_title">Notification mode</string>
     <string name="notification_mode_hide">Do not show</string>
     <string name="notification_mode_headsup">Show as Heads Up</string>
-    <string name="notification_mode_reticker">Show as Island</string>
     <string name="notification_mode_danmaku">Show as Danmaku</string>
 
     <!-- Ringer Mode -->
@@ -81,7 +80,6 @@
     <string name="fps_Info_title">FPS info</string>
     <string name="notification_hide">Hide</string>
     <string name="notification_headsup">Heads Up</string>
-    <string name="notification_reticker">Island</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Enabled</string>
     <string name="state_disabled">Disabled</string>

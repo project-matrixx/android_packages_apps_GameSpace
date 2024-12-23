@@ -40,20 +40,6 @@ class SystemSettings @Inject constructor(
             )
         }
 
-    var reTicker
-        get() =
-            Settings.System.getIntForUser(
-                resolver, Settings.System.ISLAND_NOTIFICATION, 0,
-                UserHandle.USER_CURRENT) == 1
-        set(it) {
-            Settings.System.putIntForUser(
-                resolver,
-                Settings.System.ISLAND_NOTIFICATION,
-                it.toInt(),
-                UserHandle.USER_CURRENT
-            )
-        }
-
     var autoBrightness
         get() =
             Settings.System.getIntForUser(
